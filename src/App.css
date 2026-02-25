@@ -1,0 +1,42 @@
+h1{
+  font-size: 700;
+  font-weight: 700px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.input-display{
+  min-width: 300px;
+  position: relative;
+  left: 0px;
+  margin: 10px;
+  margin-right: 20px;
+
+}
+.date-display{
+  margin: 10px;
+  margin-right: 32px;
+}
+.my-item{
+  margin: 10px;
+  position: relative;
+  left: 72px;
+
+}
+.my-date{
+  margin: 10px;
+  position: relative;
+  left: 72px;
+}
+.my-button{
+   margin: 10px;
+   min-width: 100px;
+}
+.add-button{
+  min-width: 110px;
+  margin-left: 45px;
+}
+.todo-container{
+  position: relative;
+  left: 26px;
+}
