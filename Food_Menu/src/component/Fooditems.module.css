@@ -1,3 +1,9 @@
 .myitem{
   background-color: bisque;
+  width: 70%;
+  margin-left: 180px;
+}
+.buyButton{
+  float: right;
+  /* background-color: red; */
 }
