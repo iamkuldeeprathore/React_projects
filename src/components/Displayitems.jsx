@@ -1,5 +1,5 @@
 function Displayitems(props){
-  let {item}=props;
+  let {item,handleDeleteButton}=props;
   console.log(item);
  
   return (
@@ -10,7 +10,7 @@ function Displayitems(props){
             <div className="col-4 my-item">{list.name}</div>
             <div className="col-4 my-date">{list.duedate}</div>
             <div className="col-2">
-              <button type="button" className="btn btn-danger my-button">
+              <button type="button" className="btn btn-danger my-button" onClick={()=>{handleDeleteButton(list.name,list.duedate)}} >
                 Delete
               </button>
             </div>

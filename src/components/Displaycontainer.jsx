@@ -1,9 +1,9 @@
 import Displayitems from "./Displayitems";
-function Displaycontainer({items}) {
+function Displaycontainer({items,handleDeleteButton}) {
   // console.log(items)
   return (
     <>
-      <Displayitems item={items}></Displayitems>
+      <Displayitems item={items} handleDeleteButton={handleDeleteButton}></Displayitems>
     </>
   );
 }
